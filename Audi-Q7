@@ -1,0 +1,3 @@
+// AUDI Q7 OBD non standard PIDs
+// Transmission input speed:
+unsigned char request_Msg[8] = {0x03, 0x22, 0x11, 0xF1, 0xFF, 0xFF, 0xFF, 0xFF};
